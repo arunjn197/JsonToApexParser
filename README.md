@@ -31,8 +31,7 @@ pip install -r requirements.txt  # (empty for now)
 
 ```bash
 python json2apex.py input.json -o Student.cls -c Student
-
----
+```
 
 ## 📄 Arguments
 
@@ -41,4 +40,17 @@ python json2apex.py input.json -o Student.cls -c Student
 | `input.json` | Path to your input JSON file      |
 | `-o`         | Output Apex class file (.cls)     |
 | `-c`         | Root class name (default: `Root`) |
+
+## 📂 Example
+
+🔸 Input JSON: input.json
+
+```{
+  "class": "Math",
+  "score": 95,
+  "details": {
+    "public": true,
+    "remarks": "Excellent"
+  }
+}
 ```

@@ -55,3 +55,32 @@ python json2apex.py input.json -o Student.cls -c Student
   }
 }
 ```
+
+🔸 Command
+
+```bash
+python json2apex.py input.json -o Student.cls -c Student
+```
+
+🔸 Output Apex Class: Student.cls
+
+```
+public class Student {
+    public String _class; // "class" -> _class
+    public Integer score;
+    public Details details;
+
+    public static Student fromJSON(String json) {
+        return (Student) JSON.deserialize(json, Student.class);
+    }
+
+    public String toJSON() {
+        return JSON.serialize(this);
+    }
+
+    public class Details {
+        public Boolean _public; // "public" -> _public
+        public String remarks;
+    }
+}
+```

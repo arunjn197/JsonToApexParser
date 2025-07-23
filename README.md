@@ -84,3 +84,35 @@ public class Student {
     }
 }
 ```
+
+🔸 Output Metadata: Student.cls-meta.xml
+
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<ApexClass xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>59.0</apiVersion>
+    <status>Active</status>
+</ApexClass>
+```
+
+## 🧪 Roadmap
+
+toMap() method for JSON map generation
+VSCode extension for drag-drop JSON conversion
+Support for Custom Metadata Type generation
+Batch mode: convert multiple JSON files at once
+Web version using Flask + Web UI
+
+## 🤝 Contributing
+
+We welcome contributions!
+If you'd like to:
+Improve Apex formatting or indentation
+Add support for @AuraEnabled or other annotations
+Generate test classes or sample JSON for assertions
+Create a web or VSCode UI for this tool
+Feel free to fork the repo, create a feature branch, and open a pull request.
+
+## 📄 License
+
+MIT License

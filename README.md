@@ -24,3 +24,21 @@ python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt  # (empty for now)
 ```
+
+---
+
+## 💻 CLI Usage
+
+```bash
+python json2apex.py input.json -o Student.cls -c Student
+
+---
+
+## 📄 Arguments
+
+| Flag         | Description                       |
+| ------------ | --------------------------------- |
+| `input.json` | Path to your input JSON file      |
+| `-o`         | Output Apex class file (.cls)     |
+| `-c`         | Root class name (default: `Root`) |
+```

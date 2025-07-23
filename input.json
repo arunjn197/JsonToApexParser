@@ -1,0 +1,24 @@
+{
+  "name": "John",
+  "age": 30,
+  "active": true,
+  "balance": 1234.56,
+  "roles": ["admin", "user"],
+  "address": [
+    {
+      "addressName": ["Test1", "test2"],
+      "street": "123 Main St",
+      "city": "Anytown"
+    },
+    {
+      "street": "123 Main St",
+      "city": "Anytown"
+    }
+  ],
+  "permissions": [
+    {
+      "module": "Contacts",
+      "read": true
+    }
+  ]
+}

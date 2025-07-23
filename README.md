@@ -45,7 +45,8 @@ python json2apex.py input.json -o Student.cls -c Student
 
 🔸 Input JSON: input.json
 
-```{
+```
+{
   "class": "Math",
   "score": 95,
   "details": {
